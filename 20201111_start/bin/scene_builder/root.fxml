@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <HBox alignment="CENTER" layoutY="6.0" prefHeight="150.0" prefWidth="250.0" spacing="50.0">
+         <children>
+            <CheckBox mnemonicParsing="false" text="사과" /><!--  mnemonicParsing:단축키-->
+            <CheckBox mnemonicParsing="false" text="귤" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

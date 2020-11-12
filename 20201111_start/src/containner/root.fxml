@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="150.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label layoutX="22.0" layoutY="50.0" text="아이디 :" />
+      <Label layoutX="22.0" layoutY="82.0" text="비밀번호: " />
+      <PasswordField layoutX="88.0" layoutY="78.0" />
+      <Button layoutX="232.0" layoutY="46.0" mnemonicParsing="false" text="로그인" />
+      <Button layoutX="238.0" layoutY="78.0" mnemonicParsing="false" text="취소" />
+      <CheckBox layoutX="22.0" layoutY="118.0" mnemonicParsing="false" text="로그인 정보 저장" />
+      <Label layoutX="102.0" layoutY="14.0" text="로그인 화면">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="88.0" layoutY="46.0" />
+   </children>
+</AnchorPane>

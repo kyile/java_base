@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  문자열 -->
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<!-- javafx.geometry.Inserts -->
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.TextField?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" xmlns:="http://javafx.com/javafx/8">
+	<padding>
+		<Insets top="10" right="10" bottom="10" left="10"/>	
+	</padding>
+	<spacing>10</spacing> 
+	<children>
+		<TextField>
+			<prefWidth>200</prefWidth>
+		</TextField>
+		<Button alignment="CENTER" prefWidth="200">
+		<prefWidth>300</prefWidth>
+			<text>확인</text>
+		</Button>
+	</children>
+</HBox>
+
