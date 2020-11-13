@@ -1,6 +1,4 @@
-package containner.borderpane;
-
-import java.io.IOException;
+package containner.gridpane;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,15 +6,15 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class BorderPane extends Application {
+public class GridPaneMain extends Application {
 
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			Parent root = FXMLLoader.load(getClass().getResource("root.fxml"));
-			primaryStage.setScene(new Scene(root));
+			Parent grid = FXMLLoader.load(getClass().getResource("grid.fxml"));//그리드패널 해도됨
+			primaryStage.setScene(new Scene(grid));
 			primaryStage.show();
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
