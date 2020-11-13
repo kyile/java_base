@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane 
+	fx:controller="property_listener.RootController"
+prefHeight="660.0" prefWidth="350.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <center>
+      <ImageView fx:id="img" fitWidth="1.0" preserveRatio="true"  BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@images/animals/dog.jpg" />
+         </image>
+      </ImageView>
+   </center>
+   <bottom>
+      <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <Slider fx:id="slider" />
+            <ToggleButton fx:id="toggle" mnemonicParsing="false" text="ToggleButton" />
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+
+<!-- 루트 컨테이너라고 지정해줌-->
+
+<HBox alignment="CENTER" prefHeight="50" 
+	prefWidth="200" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="e02_fxml_controller.RootController">
+	  <children>
+	  		<Button fx:id="btn1" onAction="#handleBtnAction" text="%btn1" />
+	  		<Button fx:id="btn2" text="%btn2" />
+	  		<Button onAction="#handleBtnAction" text="%btn3" />
+	  </children>
+
+</HBox>
